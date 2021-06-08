@@ -1,0 +1,24 @@
+form{
+    margin-bottom: 20px;
+    
+}
+#name {
+    flex-direction: column;
+    display: block;
+    justify-content: center;
+    width: 99%;
+}
+#email{
+    display: block;
+    margin-bottom: 20px;
+    width: 99%;
+}
+#form-message{
+    display: flex;
+    width: 99%;
+    
+    
+}
+button{
+    margin-top: 25px;
+}
