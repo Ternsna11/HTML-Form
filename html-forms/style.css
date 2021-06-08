@@ -1,0 +1,55 @@
+body {
+  padding: 10px;
+}
+
+input {
+  margin: 5px;
+}
+
+form label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: rgb(5, 59, 18);
+  font-family: Arial, Helvetica, sans-serif;
+}
+form input[type="text"]{
+  color: blue;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+#zip {
+  width: 52px;
+}
+/* this targets all inputs with radio type and their labels */
+form input[type="radio"] + label {
+  display: inline;
+} 
+
+form input[type="checkbox"] + label{
+  display: inline;
+}
+
+form button{
+  padding: 10px 15px;
+  background-color: rgb(243, 132, 4);
+  border-radius:10px;
+  border: 0;
+  color:royalblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+legend{
+  background-color: black;
+  color: white;
+  padding: 3px 6px;
+  border-radius: 6px;
+}
+
+fieldset {
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 5px;
+  /* border-style: double; */
+}
